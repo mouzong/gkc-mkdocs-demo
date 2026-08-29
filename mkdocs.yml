@@ -1,0 +1,30 @@
+site_name: Cloud Native Blog example
+site_url: http://gkc-blog.dev
+
+theme:
+  name: material
+  font:
+    text: Ubuntu
+    code: Red Hat Mono
+  logo: assets/gkc-logo.png
+  favicon: assets/gkc-favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: green
+      accent: orange
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: black
+      accent: orange
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
